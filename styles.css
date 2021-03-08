@@ -1,0 +1,922 @@
+/* G E N E R A L */
+body{
+	background: #B993D6;
+	background: -webkit-linear-gradient(to right, #8CA6DB, #B993D6);
+	background: linear-gradient(to right, #8CA6DB, #B993D6);
+}
+
+/* H E A D E R -- C S S --> */
+header.head{
+	width: 100%;
+	margin: 20px 0;
+}
+
+.nav-bar{
+	padding: 0 14rem;
+	z-index: 1500;
+}
+
+.fas.fa-times{
+	display: none;
+	color: #FFF;
+	z-index: 2001;
+}
+
+i.fas.fa-bars {
+    display: block;
+    padding-left: 12px;
+    position: relative;
+    top: 8px;
+    cursor: pointer;
+}
+
+span.toggle-span {
+    display: inline-flex;
+}
+
+div.nav-bar-list {
+    list-style: none;
+    width: 100%;
+    float: left;
+}
+
+.logo-img{
+	float: left;
+}
+
+.menu-toggle {
+    float: right;
+}
+
+span.vavci_head {
+    color: #FFF;
+    font-size: 24px;
+    padding-left: 12px;
+    vertical-align: middle;
+}
+
+span.toggle-span {
+    color: #FFF;
+}
+
+.mainPageImg {
+    color: #FFF;
+}
+
+img.logoHere {
+    width: 44px;
+}
+
+.menu-toggle {
+    font-size: 24px;
+}
+
+a.logo-link:hover {
+    text-decoration: none;
+}
+
+/*------ R E S P O N S I V E - M E N U -------*/
+.res-menu{
+	background: #70e1f5;
+	background: -webkit-linear-gradient(to right, #ffd194, #70e1f5);
+	background: linear-gradient(to right, #ffd194, #70e1f5);
+	height: 100vh;
+	width: 100vw;
+	color: #707070;
+	display: none;
+    position: fixed;
+    color: #FFF;
+    overflow: hidden;
+    z-index: 5000;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all 0.3s;
+    animation: Fade 0.3s forwards;
+    animation-delay: 0s;
+}
+
+.res-logo {
+    text-align: center;
+    margin: 1rem 0 2rem 0;
+}
+
+.res-logo-link {
+    font-size: 4.5rem;
+    color: #FFF;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.res-logo-link:hover {
+    color: #FFF;
+    text-decoration: none;
+}
+
+nav.res-nav-bar {
+    display: flex;
+    justify-content: center;
+}
+
+ul.res-nav-bar-list {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 80rem;
+}
+
+li.res-nav-bar-item {
+    display: flex;
+    flex: 100%;
+    font-size: 2.2rem;
+    padding: 1rem;
+}
+
+li.res-nav-bar-item:hover {
+    background: linear-gradient(270deg, #70E1F5, #FFD194);
+}
+
+a.res-nav-link{
+	color: #707070;
+	font-weight: 700;
+}
+
+a.res-nav-link:hover{
+	text-decoration: none;
+}
+
+span.res-count {
+    margin-right: 1rem;
+    font-weight: 100;
+}
+
+.res-social{
+	margin-top: 4rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.res-social-list{
+	list-style: none;
+	display: flex;
+}
+.res-social-item{
+	padding: 0 1.4rem;
+}
+
+.res-social-link {
+    color: #FFF;
+    padding: 0.8rem 1.3rem;
+    font-size: 1.6rem;
+    border: 2px solid #FFF;
+    border-radius: 50%;
+}
+
+.res-social-link:hover {
+    color: #707070;
+    padding: 0.8rem 1.3rem;
+    font-size: 1.6rem;
+    text-decoration: none;
+    background-color: #FFF;
+    border-color: #707070;
+}
+
+.res.menu-toggle {
+    position: absolute;
+    top: 0;
+    width: 120px;
+    height: 120px;
+    background: #FFF;
+    border-radius: 0 0 0 120px;
+    right: 0;
+}
+
+.fas.fa-times {
+    display: none;
+    color: #707070;
+    padding: 2rem 4rem;
+    animation: spin 2s infinite;
+    font-size: 32px;
+}
+
+h4.res-download-h4 {
+    text-align: center;
+    font-size: 44px;
+    margin-bottom: 6%;
+}
+
+.res-downlaod {
+    margin-top: 2%;
+}
+
+.res-downlaod-list{
+	margin: 0px 25%;
+}
+.res-android {
+    float: left;
+}.res-ios {
+    float: right;
+}
+
+.res-android-link img, .res-ios-link img {
+    width: 325px;
+}
+
+img.logoRes {
+    width: 75px;
+}
+
+span.vavc_headNav {
+    font-size: 44px;
+    padding-left: 1%;
+}
+
+.nav-bar.sticky{
+	width: 100%;
+	position: fixed;
+	background-color: #F4F4E9;
+	box-shadow: 0 10px 10px -10px rgba(0,0,0,0.35);
+	animation: Fade 0.5s forwards;
+}
+
+/* M A I N - P A G E -- C S S --> */
+section.mainPage{
+	margin: 0 10%;
+	height: 100vh
+}
+
+div.leftBlock{
+	float: left;
+    width: 41.666667%;
+    margin-top: 80px;
+	margin-left: 4.16%
+}
+
+div.videoImg{
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.videoImg img.videoOneCover{
+	display: block;
+    width: 402px;
+    height: 564px;
+    margin-left: -42px;
+}
+
+div.mainPageVideo{
+	position: absolute;
+	border-radius: 10px;
+	top: 72px;
+    left: 14px;
+    transform: translateX(0);
+    width: 248px;
+    height: 438px;
+    box-shadow: none;
+}
+
+img.vavciImg{
+	width: 246px;
+    height: 438px;
+    margin: 0 auto;
+    -o-object-fit: contain;
+    object-fit: contain;
+}
+
+div.rightBlock{
+    float: left;
+    width: 54.166667%;
+    margin-top: 120px;
+    text-align: center;
+}
+
+h1.mainPageH1 {
+    text-transform: uppercase;
+    font-size: 32px;
+}
+
+img.mainPageLogo{
+	height: 70px;
+}
+
+span.vavc_head {
+    font-size: 40px;
+    padding-left: 4%;
+    vertical-align: middle;
+}
+
+div.mainLang{
+	margin-left: 0;
+	margin-right: 15px;
+    border-radius: 3px;
+    background-color: rgba(57,57,57,.1);
+    padding: 5px;
+}
+
+div.mainLang h3{
+	padding-top: 10px;
+}
+
+div.mainLang div{
+	padding-top: 10px;
+}
+
+.downlaods50, .stars5{
+	width: 15%;
+}
+
+.downlaods50 img, .stars5 img{
+	width: 90%;
+}
+
+.textD{
+	font-size: 12px;
+}
+
+img.madeInIndiaImg {
+    width: 400px;
+}
+
+.madeInIndia {
+    margin: 40px 0;
+}
+
+h4.mainPageH4 {
+    font-size: 32px;
+    color: #FFF;
+}
+
+.androidDiv, .iosDiv{
+    width: 46%;
+    float: left;
+    margin: 20px 20px 0 0;
+}
+
+.iosDiv{
+    float: right;
+}
+
+img.androidImg, img.iosImg{
+	width: 90%;
+}
+
+/* S E C O N D - S E C T I O N -- C S S -->*/
+section.second-sec {
+    display: inline-block;
+    margin: 0;
+}
+
+div.secondSection{
+	margin: 0 10%;
+}
+
+div.headMsg{
+	text-align: center;
+}
+
+h1.vavciH1 {
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.vavciPara {
+    padding: 0 6%;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+
+.oneImg {
+    text-align: center;
+    margin: 32px 0;
+}
+
+img.styleImg {
+    width: 280px;
+}
+
+.threeImg {
+    text-align: center;
+    float: left;
+    width: 100%;
+}
+
+.firstImg, .secondImg, .thirdImg, .fourthImg, .fifthImg {
+    float: left;
+    width: 20%;
+}
+
+img.gridPic {
+    width: 175px;
+}
+
+/* T H I R D - S E C T I O N -- C S S -->*/
+/*section.third-sec {
+    height: 100vh;
+    margin: 16% 0 0;
+}
+
+.thirdSection {
+    margin: 0 10%;
+}
+
+.HeadText {
+    text-align: center;
+}
+
+div.videoGrid{
+	display: flex;
+	flex-direction: row;
+	margin: 0 50px;
+}
+
+div.videoImgTwo{
+	position: relative;
+	margin: auto;
+	text-align: center;
+}
+
+img.videoTwoCover{
+	width: 280px;
+    height: 565px;
+    vertical-align: middle;
+}
+
+div.thirdSectionVideo{
+	position: absolute;
+	top: 59px;
+    left: 14px;
+    transform: translateX(0);
+    width: 250px;
+    height: 438px;
+}
+
+video.secondVideoControl{
+	width: 250px;
+    height: 438px;
+}
+
+div.photosGrid{
+	display: flex;
+	flex-direction: row;
+    justify-content: flex-end;
+    overflow-x: auto;
+    max-width: 100%;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+div.photosGridDiv{
+	flex: none;
+	margin: 10px;
+	background: rgba(0,0,0,.5);
+    height: 150px;
+    width: 200px;	
+}
+
+img.photosGridPic{
+	width: 100%;
+    cursor: pointer;
+    height: 100%;
+}
+
+div.textMany {
+    margin-left: calc(50% - 50px);
+    display: flex;
+    flex: 1 1 100%;
+    font-size: 1.8em;
+    font-weight: 100;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}*/
+
+/* L A S T - S E C T I O N --> */
+section.last-sec {
+    margin-top: 6%;
+}
+
+.lastSection {
+    margin: 0 10%;
+}
+
+.lastHeadMsg {
+    text-align: center;
+}
+
+.downloadIcons {
+    margin: 25px 0;
+    width: 100%;
+    float: left;
+}
+
+.androidIcon {
+    float: left;
+    margin-left: 12%
+}
+
+.iosIcon {
+    float: right;
+    margin-right: 12%
+}
+
+img.androidIconImg, img.iosIconImg {
+    width: 320px;
+}
+
+.madeInIndiaIcon {
+    text-align: center;
+}
+
+img.madeInIndiaIconImg {
+    width: 380px;
+}
+
+/*----- F O O T E R -----*/
+footer.vavciFooter {
+    margin-top: 150px;
+    background-color: rgba(255,255,255,.2)!important;
+    padding: 50px 0;
+}
+
+.divLeft {
+    width: 500px;
+}
+
+.footerDiv {
+    margin: 0 10%;
+}
+
+.vavciDivFooter {
+    display: flex;
+    flex-direction: row;
+}
+
+img.VavciLogoFooter {
+    width: 100px;
+}
+
+p.footerPara {
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-top: 18px;
+    line-height: 30px;
+}
+
+span.vavciFooterText {
+    vertical-align: middle;
+    font-size: 42px;
+    padding-left: 5%;
+}
+
+.socialFooter img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+.socialFooter {
+    display: inline-flex;
+    margin-top: 14px;
+}
+
+.divRight {
+    margin-left: 45%;
+}
+
+img.androidIconImgFooter, img.iosIconImgFooter {
+    width: 250px;
+}
+
+.iosIconFooter {
+    margin-top: 15px;
+}
+
+.footer-links {
+    margin: 20px 0;
+    font-size: 20px;
+}
+
+ul.footer-link-ul {
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
+a.footer-menu-link {
+    color: #000;
+}
+
+a.footer-menu-link:hover {
+    color: #FFF;
+    text-decoration: none;
+}
+
+
+/* P R I V A C Y - P A G E -- C S S -->*/
+section#privacy-page-vavci {
+    background: #FFF !important;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 0 60px 40px;
+}
+
+h1.privacyH1 {
+    font-size: 28px;
+    letter-spacing: 1px;
+    margin: 40px 0 12px;
+    text-transform: uppercase;
+}
+
+p.privacyP {
+    margin-bottom: 0;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+
+.margin-Top{
+    margin-top: 30px;
+}
+
+
+/* T E R M S - P A G E -- C S S -->*/
+section#terms-page-vavci{
+    background: #FFF !important;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 0 60px 40px;
+}
+
+h1.termsH1 {
+    font-size: 28px;
+    letter-spacing: 1px;
+    margin: 40px 0 12px;
+    text-transform: uppercase;
+}
+
+p.termsP {
+    margin-bottom: 0;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+
+p.termsP.headTerms, p.termsHead {
+    color: #000;
+    font-size: 20px;
+    margin: 10px 0;
+    font-weight: 700;
+}
+
+/* R E S P O N S I V E -- C S S --> */
+@media (max-width: 800px){
+    .nav-bar {
+        padding: 0 18px;
+        z-index: 1500;
+    }
+
+    .menu-toggle {
+        position: relative;
+        font-size: 24px;
+        top: 5px;
+    }
+
+    section.mainPage {
+        text-align: center;
+        margin: 0;
+    }
+
+    section.main-page-vavci {
+        display: inline-block;
+        margin-top: 20px;
+    }
+
+    div.leftBlock{
+        margin-top: 0;
+    }
+
+    .videoImg img.videoOneCover{
+        margin-left: 0;
+    }
+
+    div.mainPageVideo{
+        left: 30px;
+    }
+
+    img.vavciImg {
+        width: 246px;
+        height: 376px;
+    }
+
+    div.rightBlock {
+        margin-left: 0;
+        margin-top: 20px;
+        text-align: center;
+        width: 100%;
+    }
+
+    div.secondSection{
+        margin: 0;
+    }
+
+    .androidDiv, .iosDiv {
+        margin: 20px 0;
+        width: 100%;
+        float: none;
+    }
+
+    img.androidImg, img.iosImg {
+        width: 70%;
+    }
+
+    .divLeft {
+        width: 100%;
+    }
+
+    .firstImg, .secondImg, .thirdImg, .fourthImg, .fifthImg{
+        width: 50%;
+        margin-bottom: 10px;
+    }
+
+    img.gridPic {
+        width: 140px;
+    }
+
+    section.last-sec {
+        display: inline-block;
+        margin-top: 32px;
+    }
+
+    .lastSection{
+        margin: 0;
+    }
+
+    h1.vavciH1 {
+        text-transform: uppercase;
+        margin-bottom: 15px;
+        font-size: 32px;
+    }
+
+    .downloadIcons {
+        float: none;
+        text-align: center;
+    }
+
+    .androidIcon {
+        float: none;
+        margin-left: 0;
+        margin-bottom: 12px;
+    }
+
+    .iosIcon {
+        float: none;
+        margin-right: 0;
+    }
+
+    img.madeInIndiaIconImg {
+        width: 300px;
+    }
+
+    .vavciDivFooter{
+        display: block;
+    }
+
+    .divRight{
+        margin-top: 10%;
+        margin-left: 0;
+    }
+
+    .videoImg img.videoOneCover{
+        width: 340px;
+        height: 500px;
+    }
+
+    footer.vavciFooter {
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .vavcaiLogo {
+        text-align: left;
+    }
+
+    img.VavciLogoFooter {
+        width: 80px;
+    }
+
+    span.vavciFooterText {
+        vertical-align: middle;
+        font-size: 35px;
+        padding-left: 5%;
+    }
+
+    .res.menu-toggle {
+        width: 80px;
+        height: 80px;
+    }
+
+    .fas.fa-times {
+        padding: 15px 40px;
+    }
+
+    .res-logo {
+        text-align: center;
+        margin: 3rem 0 16px 0;
+    }
+
+    img.logoRes {
+        width: 60px;
+    }
+
+    span.vavc_headNav {
+        font-size: 32px;
+        padding-left: 4%;
+        vertical-align: middle;
+    }
+
+    ul.res-nav-bar-list {
+        padding-left: 24px;
+    }
+
+    li.res-nav-bar-item {
+        display: flex;
+        flex: 100%;
+        font-size: 24px;
+        padding: 10px;
+    }
+
+    .res-downlaod {
+        margin-top: 12%;
+    }
+
+    .res-downlaod-list {
+        margin: 0;
+        text-align: center;
+    }
+
+    h4.res-download-h4 {
+        text-align: center;
+        font-size: 32px;
+        margin-bottom: 6%;
+    }
+
+    .res-android, .res-ios {
+        float: none;
+        margin-bottom: 20px;
+    }
+
+    section#privacy-page-vavci {
+        padding: 0 20px 40px;
+    }
+
+    p.privacyP {
+        font-size: 16px;
+        letter-spacing: 0.5px;
+        line-height: 22px;
+    }
+
+    section#terms-page-vavci{
+        padding: 0 20px 40px;
+    }
+
+    p.termsP{
+        font-size: 16px;
+        letter-spacing: 0.5px;
+        line-height: 22px;
+    }
+
+    h1.termsH1{
+        font-size: 22px;
+    }
+
+    img.madeInIndiaImg {
+        width: 300px;
+    }
+}
+
+/* F A D I N G - A N I M A T I O N -- C S S --> */
+@keyframes fadeUp{
+    0%{
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+
+    100%{
+        opacity:1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes Fade{
+    0%{
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
